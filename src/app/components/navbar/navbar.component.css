@@ -1,0 +1,22 @@
+.outer-container {
+  background-color: lightblue;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.inner-container {
+  background-color: beige;
+  width: 35%;
+}
+
+.inner-container nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.25rem;
+}
