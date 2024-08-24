@@ -11,28 +11,39 @@ p {
 }
 
 .outer-container {
-  margin-top: 2rem;
   display: flex;
   justify-content: center;
-  background-color: aliceblue;
 }
 
 .inner-container {
-  width: 65%;
+  width: 50%;
 }
 
-.about-container {
+.about-container,
+.interest-container {
   display: flex;
+  padding-top: 2rem;
+  align-items: center;
 }
 
 .img-container {
   width: 35%;
+
+  display: flex;
+  justify-content: center;
 }
 
 #beach-img {
-  width: 70%;
+  width: 85%;
   max-width: 961px;
   border-radius: 5%;
+  padding-right: ;
+}
+
+#interst-img {
+  width: 70%;
+  max-width: 2000px;
+  border-radius: 15%;
 }
 
 .text-container {
